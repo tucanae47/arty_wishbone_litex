@@ -12,7 +12,7 @@ class BridgeSoC(BaseSoC):
         BaseSoC.__init__(self,sys_clk_freq,
             cpu_type=None,
             csr_data_width=32,
-            with_uart=False,
+            with_uart=True,
             with_timer=False,
             uart_name="crossover"
         )
